@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fillViewport="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:context=".VarsityBooks"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_lvl1t1Id"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/responsive"
+            android:text="Level-1 Term-1"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/btn_lvl1t2Id"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/code"
+            android:text="Level-1 Term-2"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/btn_lvl1t3Id"
+            android:padding="5dp"
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/data"
+            android:text="Level-1 Term-3"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_lvl21t1Id"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/java"
+            android:text="Level-2 Term-1"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/btn_lvl2t2Id"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/algorithm"
+            android:text="Level-2 Term-2"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/btn_lvl2t3Id"
+            android:padding="5dp"
+
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/cpu"
+            android:text="Level-2 Term-3"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_lvl31t1Id"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/network"
+            android:text="Level-3 Term-1"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/btn_lvl3t2Id"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/linux"
+            android:text="Level-3 Term-2"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/btn_lvl3t3Id"
+            android:padding="5dp"
+
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/software"
+            android:text="Level-3 Term-3"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_lvl41t1Id"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/artificial_intelligence"
+            android:text="Level-4 Term-1"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/btn_lvl4t2Id"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/art"
+            android:text="Level-4 Term-2"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/btn_lvl4t3Id"
+            android:padding="5dp"
+
+            android:background="@drawable/button_shape"
+            android:drawableTop="@drawable/graduation"
+            android:text="Level-4 Term-3"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</ScrollView>

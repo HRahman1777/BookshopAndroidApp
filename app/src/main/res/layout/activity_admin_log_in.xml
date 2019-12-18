@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/spactum_wallpaperbackground"
+    android:gravity="center"
+    tools:context=".AdminLogIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#43FFFDFD"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Panel Login"
+            android:textStyle="bold"
+            android:textColor="#3C2D0F"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginBottom="60dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textColor="#3C2D0F"
+                android:textStyle="bold|italic"
+                android:textSize="20dp"
+                android:padding="5dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFD600"
+                android:hint="Enter ID/Name for Admin panel"
+                android:padding="5dp"
+                android:id="@+id/adminLoginEditTxtId"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password :"
+                android:textColor="#3C2D0F"
+                android:textStyle="bold|italic"
+                android:textSize="20dp"
+                android:padding="5dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Password"
+                android:backgroundTint="#FFD600"
+                android:id="@+id/adminLoginPasswdId"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LogIn"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="25dp"
+            android:background="@drawable/button_shape"
+            android:textAllCaps="false"
+            android:layout_marginTop="60dp"
+
+            android:id="@+id/adminLoginBtnId"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

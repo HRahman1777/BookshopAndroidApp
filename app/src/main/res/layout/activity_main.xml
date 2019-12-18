@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="13dp"
+    android:background="@drawable/mainbgnd"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/varsityBookId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Varsity Book"
+        android:textSize="25dp"
+        android:background="@drawable/button_shape3"
+        android:textColor="#DAFFFFFF"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/questionBankId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Questions Bank"
+        android:textSize="25dp"
+        android:background="@drawable/button_shape3"
+        android:textColor="#DAFFFFFF"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/onlineShopId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online Shop"
+        android:textSize="25dp"
+        android:background="@drawable/button_shape3"
+        android:textColor="#DAFFFFFF"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/AdminLoginPanelbtnId"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Admin Login"
+        android:textSize="25dp"
+        android:background="@drawable/button_shape3"
+        android:textColor="#D3020202"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>

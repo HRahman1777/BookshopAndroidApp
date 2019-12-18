@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BookShop</string>
+    <string name="actvty_varsitybk">Varsity Books</string>
+    <string name="actvty_qntbk">Questions Bank</string>
+    <string name="actvty_onlinshop">Online Shop</string>
+    <string name="actvty_adminp">Admin Panel</string>
+
+
+
+    <string name="about_us">Developed by:\n \t\t\t\t\t\t\t\t\t\t\t\tHasibur\n\t\t\t\t\t\t\t\t\t\t\t\tMahmudul\n\t\t\t\t\t\t\t\t\t\t\t\tNaim\n\t\t\t\t\t\t\t\t\t\t\t\tEmtiyaz
+
+    \n\n\n
+        \t\t\t\t\t\t\t\t\t\t\t
+    (Students Of DIU\n
+     \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDept. Of CSE)
+
+
+    </string>
+</resources>
