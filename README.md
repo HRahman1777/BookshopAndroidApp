@@ -7,3 +7,4 @@ books through admin panel also buy books from some popular online shop through t
 Here is also added the apk generated file BookShop.apk 
 this isn't google signed apk so before install it will need permission.
 
+## http://bit.ly/diu_Bookshop
